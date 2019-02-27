@@ -2,7 +2,7 @@ import React from 'react';
 
 const Listarea = (props) => {
   return (
-    <div>List Area</div>
+    <div>{props.items}</div>
   )
 }
 

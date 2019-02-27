@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Entry = () => {
+const Entry = (props) => {
   return (
-    <div>Entry</div>
+    <div>{props.newitem}</div>
   )
 }
 
