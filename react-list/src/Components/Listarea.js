@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Listarea = (props) => {
+const Listarea = (props) =>{
   return (
     <div>{props.items}</div>
   )
