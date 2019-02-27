@@ -15,10 +15,9 @@ class App extends Component {
       footer: 'Thank You For Visiting!'
     }
   }
-
   render() {
     return (
-      <div className="App container">
+      <div className="App">
         <Header
           title={this.state.title}></Header>
         <br />
@@ -30,7 +29,8 @@ class App extends Component {
           <br />
           <div className="col-md-6">
             <Listarea
-              items={this.state.items}></Listarea>
+              items={this.state.items}>
+            </Listarea>
           </div>
         </div>
         <br />
