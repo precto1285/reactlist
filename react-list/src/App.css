@@ -1,8 +1,8 @@
 .App {
 text-align: center;
-margin: 5%;
-padding: 5%;
 border:solid;
+margin: 1%;
+padding: 3%;
 border-color: lightblue;
 border-radius: 35px; 
 }

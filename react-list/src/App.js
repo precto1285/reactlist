@@ -8,17 +8,24 @@ import Entry from './Components/Entry';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <Header 
+      <div className="App container">
+        <Header
           title="Grocery List"></Header>
-        <br/>
-        <Entry 
-          newitem="Milk"></Entry>
-        <br/>
-        <Listarea 
-          items="Fish"></Listarea>
-        <br/>
-        <Footer 
+
+        <br />
+        <div className="row">
+          <div className="col-md-6">
+            <Entry
+              newitem="Milk"></Entry>
+          </div>
+          <br />
+          <div className="col-md-6">
+            <Listarea
+              items="Fish"></Listarea>
+          </div>
+        </div>
+        <br />
+        <Footer
           footer="Thank You For Visiting!"></Footer>
       </div>
     );

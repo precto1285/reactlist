@@ -1,8 +1,8 @@
 import React from 'react';
 
-const Listarea = (props) =>{
+const Listarea = (props) => {
   return (
-    <div>{props.items}</div>
+    <div className="container bg-success">{props.items}</div>
   )
 }
 
